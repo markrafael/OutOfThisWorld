@@ -21,6 +21,7 @@
 		333814F8181A3F450095B752 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 333814F6181A3F450095B752 /* InfoPlist.strings */; };
 		333814FA181A3F450095B752 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333814F9181A3F450095B752 /* Out_of_this_WorldTests.m */; };
 		33381505181A3FF60095B752 /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33381504181A3FF60095B752 /* OWOuterSpaceTableViewController.m */; };
+		33CFFD7218277880003EB14E /* OWAddSpaceObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFFD7118277880003EB14E /* OWAddSpaceObjectViewController.m */; };
 		33FAD243181E226100FC1847 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAD242181E226100FC1847 /* AstronomicalData.m */; };
 		33FAD28A18220DE100FC1847 /* OWSpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FAD28918220DE100FC1847 /* OWSpaceObject.m */; };
 		33FAD29518220E8400FC1847 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33FAD28B18220E8400FC1847 /* Earth.jpg */; };
@@ -67,6 +68,8 @@
 		333814F9181A3F450095B752 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
 		33381503181A3FF60095B752 /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWOuterSpaceTableViewController.h; path = ../OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
 		33381504181A3FF60095B752 /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWOuterSpaceTableViewController.m; path = ../OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		33CFFD7018277880003EB14E /* OWAddSpaceObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWAddSpaceObjectViewController.h; sourceTree = "<group>"; };
+		33CFFD7118277880003EB14E /* OWAddSpaceObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWAddSpaceObjectViewController.m; sourceTree = "<group>"; };
 		33FAD241181E226100FC1847 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
 		33FAD242181E226100FC1847 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 		33FAD28818220DE100FC1847 /* OWSpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpaceObject.h; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				333814DD181A3F440095B752 /* OWAppDelegate.h */,
 				333814DE181A3F440095B752 /* OWAppDelegate.m */,
 				333814E0181A3F440095B752 /* Main.storyboard */,
+				33CFFD7018277880003EB14E /* OWAddSpaceObjectViewController.h */,
+				33CFFD7118277880003EB14E /* OWAddSpaceObjectViewController.m */,
 				33FAD37A1827035A00FC1847 /* OWSpaceDataViewController.h */,
 				33FAD37B1827035A00FC1847 /* OWSpaceDataViewController.m */,
 				33FAD2ED18221B7400FC1847 /* OWSpaceImageViewController.h */,
@@ -318,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CFFD7218277880003EB14E /* OWAddSpaceObjectViewController.m in Sources */,
 				33381505181A3FF60095B752 /* OWOuterSpaceTableViewController.m in Sources */,
 				33FAD28A18220DE100FC1847 /* OWSpaceObject.m in Sources */,
 				333814DF181A3F440095B752 /* OWAppDelegate.m in Sources */,
